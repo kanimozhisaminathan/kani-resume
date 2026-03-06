@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 40px;
+}
+
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+section {
+    margin-top: 30px;
+}
+
+section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+
+ .education { 
+    margin-bottom: 20px;
+}
+
+ .edu-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.edu-header h3 {
+    font-size: 16px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills li {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-header h3 {
+    font-size: 16px;
+}
+
+.cert {
+    margin-left: 20px;
+}
+
+.cert li {
+    margin-bottom: 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+     .edu-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+}
